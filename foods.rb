@@ -7,5 +7,12 @@ food_choices = []
   food_choices << food
 end
 
-food_choices.each {|food| puts "I love #{food}"}
+food_choices.each {|food| "I love #{food}"}
+
+
+x = 0
+food_choices.each do |food|
+  puts "#{x += 1}. #{food}"
+  end
+
 
